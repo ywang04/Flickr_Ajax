@@ -1837,6 +1837,7 @@ a {
   line-height: 1.4;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -1866,6 +1867,7 @@ ul.rooms li {
 ul.rooms li.empty {
   background-color: #5fcf80;
 }
+
 ul.rooms li.full {
   background-color: #ed5a5a;
 }
@@ -1892,17 +1894,21 @@ ul.bulleted li:before {
 ul.bulleted .in {
   color: #5A6772;
 }
+
 ul.bulleted .in:before {
   content: "IN";
   background-color: #5fcf80;
 }
+
 ul.bulleted .out {
   color: #A7B4BF;
 }
+
 ul.bulleted .out:before {
   content: "OUT";
   background-color: #ed5a5a;
 }
+
 ul.filter-select {
   display: table;
   table-layout: fixed;
